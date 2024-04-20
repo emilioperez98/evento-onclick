@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+
+<body>
+
+    <header class="top-section">
+        <nav class="navigation">
+            <div class="tittle">
+                <h1>Dojonary</h1>
+            </div>
+            <div class="search-box">
+                <input class="search-input" type="text" placeholder="Search">
+            </div>
+            <div class="login">
+                <button class="login-button" id="login-button" onclick="toggleButtonText('login-button', 'Logout')">Login</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content-section">
+
+        <main class="main-content">
+
+            <article class="content-article">
+
+                <div class="article-content">
+                    <h2>ninja</h2>
+                    <h3 class="article-type">noun</h3>
+                    <p>Plural: <span class="article-type">ninjas</span></p>
+                    <button class="like-button" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+
+                <div class="article-description">
+                    <p>
+                        A skilled practitioner in the <span class="link-decoration">Japanese</span> art of <span class="link-decoration">ninjutsu</span>
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="content-article">
+
+                <div class="article-content">
+                    <h2>ninja</h2>
+                    <h3 class="article-type">noun</h3>
+                    <p>Plural: <span class="article-type">ninjas</span></p>
+                    <button class="like-button" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+
+                <div class="article-description">
+                    <p>
+                        A <span class="link-decoration">programmer</span> who solves problems with <span class="link-decoration">zen-like</span> focus
+                    </p>
+                </div>
+
+            </article>
+
+        </main>
+
+        <aside class="side-content"> 
+
+            <section class="side-section">
+                <div class="side-title">
+                    <h2>Dojonary is shaped by <span class="strong-text">YOU</span></h2>
+                </div>
+                <div class="side-button">
+                    <button class="add-button" id="add-button" onclick="disableButton('add-button')">Add Definition</button>
+                </div>
+            </section>
+
+        </aside>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

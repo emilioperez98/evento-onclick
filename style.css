@@ -1,0 +1,130 @@
+/* CSS */
+
+/* Header Section */
+
+* {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.top-section {
+    background-color: gray;
+    padding: 10px 20px;
+    max-width: 590px; 
+    margin: 0 auto; 
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tittle h1 {
+    margin: 0;
+    font-weight: bolder;
+}
+
+/* Search Box */
+.search-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Login Button */
+.login-button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80px;
+    box-shadow: 0 2px 4px black;
+}
+
+/* Content Section */
+.content-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Main Content */
+.main-content {
+    max-width: 400px;
+}
+
+.content-article {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    width: 400px;
+}
+
+.article-content h2 {
+    margin-top: 0;
+}
+
+.article-type {
+    color: #007bff;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.like-button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px black;
+}
+
+.like-button:hover {
+    background-color: #218838;
+}
+
+.link-decoration {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+/* Side Content */
+.side-content {
+    max-width: 200px;
+}
+
+.side-section {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.strong-text {
+    font-weight: bold;
+}
+
+.add-button {
+    width: 100%;
+    padding: 8px 0;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px black;
+}
+
+.add-button:hover {
+    background-color: #c82333;
+}
